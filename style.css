@@ -26,6 +26,8 @@ body {
 
 #playlists-wrapper{
     padding-top:20%;
+    padding-bottom:10%;
+
 }
 
 
@@ -35,8 +37,6 @@ ul.playlists {
   margin:0;
   padding: 0;
   text-align: center;
-      padding-bottom:10%;
-
 }
 
 ul.playlists li {
