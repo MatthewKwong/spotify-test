@@ -1,0 +1,67 @@
+body {
+    background-color: #222222;
+    text-align: center;
+    font-family: arial;
+    color: white;
+}
+
+#title {
+    font-size:50px;
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+
+#logo {
+    border: solid white 7px;
+    border-radius: 50%;
+    height: 500;
+    transition: transform .8s ease-in-out;
+
+}
+
+#logo:hover {
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 30px 0px white;
+}
+
+#playlists-wrapper{
+    padding-top:20%;
+}
+
+
+/*HOVER ALBUM COVERS*/
+
+ul.playlists {
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.playlists li {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+}
+
+p{
+  padding-top: 35%;
+}
+
+span.text-content {
+  font-family: Carrois Gothic SC;
+  font-size:40px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 500px;
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+
+ul.playlists li:hover span.text-content {
+  opacity: 1;
+}
